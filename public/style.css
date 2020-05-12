@@ -1,0 +1,62 @@
+body{
+    background-image: url('images/calm-body-of-water-1363876.jpg');
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    font-family: OCR A Std, monospace;
+    margin: 0;
+}
+#left{
+    float: left;
+    width: 25%;
+    color: white;
+    height: 82vh;
+
+}
+#widget{
+    margin-top: 25px;
+}
+
+#right{
+    float: right;
+    width: 60%;
+    height: 82vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+
+}
+#holder{
+    height: 20%;
+    width: 100%;
+}
+
+
+
+.top{
+    border-top: 1px solid white;
+}
+
+#total{
+    border-top: 2px solid white;
+    height: 20%;
+}
+label{
+    color: white;
+    font-size: 50px;
+    font-family: OCR A Std, monospace;
+    
+}
+input{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: OCR A Std, monospace;
+    font-size: 20px;
+    float: right;
+}
