@@ -1,9 +1,5 @@
 const cmcURL = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=20&CMC_PRO_API_KEY=cfc1cb36-d937-441c-8d9a-5964f940434c'
 const filmsURL = 'https://ghibliapi.herokuapp.com/films'
-let btcPrice;
-let ethPrice;
-let ltcPrice;
-let xmrPrice;
 prices = [];
 
 const express = require('express');
