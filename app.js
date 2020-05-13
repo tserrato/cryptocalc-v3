@@ -48,7 +48,7 @@ const getData = async cmcURL => {
     try {
         const response = await fetch(cmcURL);
         const json = await response.json();
-        prices.push(json.data[15].quote.USD.price);
+        prices.push(json.data[13].quote.USD.price);
         // console.log(xmrPrice);
     } catch (error) {
         console.log(error);

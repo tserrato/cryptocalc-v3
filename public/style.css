@@ -60,3 +60,27 @@ input{
     font-size: 20px;
     float: right;
 }
+
+button{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 230px;
+    height: 75px;
+    margin-top: 30px;
+    float: right;
+    
+}
+
+#total{
+    color: white;
+    font-size: 50px;
+    font-family: OCR A Std, monospace;
+}
+
+.output{
+    color: white;
+    font-family: OCR A Std, monospace;
+    font-size: 25px;
+    float: right;
+    margin-right: 50px;;
+}

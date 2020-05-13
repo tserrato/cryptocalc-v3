@@ -39,21 +39,29 @@
     <div id="right">
         <div id="holder">
             <label for="Bitcoin">Bitcoin</label>
-            <input class="btcInput" type="number" id="Bitcoin">
+            <input class="Input" type="number" min="0" value="0" id="Bitcoin">
+            <div id="inputone" class="output"></div>
         </div>
         <div id="holder" class="top">
             <label for="Ethereum">Ethereum</label>
-            <input class="ethInput" type="number" id="Ethereum">
+            <input class="Input" type="number" min="0" value="0" id="Ethereum">
+            <div id="inputtwo" class="output"></div>
         </div>
         <div id="holder" class="top">
             <label for="Litecoin">Litecoin</label>
-            <input class="ltcInput" type="number" id="Litecoin">
+            <input class="Input" type="number" min="0" value="0" id="Litecoin">
+            <div id="inputthree" class="output"></div>
         </div>
         <div id="holder" class="top">
             <label for="Monero">Monero</label>
-            <input class="xmrInput" type="number" id="Monero">
+            <input class="Input" type="number" min="0" value="0" id="Monero">
+            <div id="inputfour" class="output"></div>
         </div>
-        <div id="total"></div>
+        <div id="total">
+            <label for="total">Total</label>
+            <button type="button" id="submit">Calculate</button>
+            <div id="calcTotal" class="output"></div>
+        </div>
     </div>
 
 
